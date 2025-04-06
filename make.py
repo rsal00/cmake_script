@@ -1,14 +1,14 @@
 import os
 
 folder_name = input("Folder Name: ")
-choice = input("Which folder? 1)C++ 2)CMPR131: ")
+choice = input("Which folder? 1)... 2)... ")
 
 if choice == "1":
-    # Changing to C++ folder
-    os.chdir() // directory 1
+    # A random folder
+    os.chdir() # directory 1
 elif choice == "2":
-    # Changing to CMPR131 class folder
-    os.chdir() // directory 2
+    # Another random folder
+    os.chdir() # directory 2
 else:
     print("Invalid input!")
 
