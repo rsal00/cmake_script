@@ -5,10 +5,10 @@ choice = input("Which folder? 1)C++ 2)CMPR131: ")
 
 if choice == "1":
     # Changing to C++ folder
-    os.chdir('/Users/rubensalazar/Documents/Programming/C++')
+    os.chdir() // directory 1
 elif choice == "2":
     # Changing to CMPR131 class folder
-    os.chdir('/Users/rubensalazar/Desktop/CMPR131')
+    os.chdir() // directory 2
 else:
     print("Invalid input!")
 
